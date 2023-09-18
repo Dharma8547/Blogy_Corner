@@ -1,0 +1,40 @@
+
+<!-- include header -->
+<%- include('include/_header') %>
+<!-- /include header -->
+
+  <!-- Main Site -->
+  <main id="site-main">
+    <div class="container">
+        <div class="form-title text-center">
+            <h2 class="text-dark">Update User-Blog</h2>
+            <span class="text-light">Use the below form to Update an user-blog</span>
+        </div>
+
+        <!-- add user form -->
+         <!-- form handling -->
+         
+ <form action="/blog/update/<%= id %>" method="POST" id="add_user">
+    <div class="new_user">
+        <div class="form-group">
+            <label for="name" class="text-light">Name</label>
+            <input type="hidden" name="id" value="">
+            <input type="text" name="title" value="" placeholder="Title1" required>
+        </div>
+        <div class="form-group">
+            <label for="Email" class="text-light">Email</label>
+            <input type="text" name="description" value="" placeholder="Description1" required>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn text-dark update">Update</button>
+        </div>
+    </div>
+</form>
+       
+    </div>
+</main>
+<!-- /Main Site -->
+
+<!-- include footer -->
+<%- include('include/_footer') %>
+<!-- /include footer -->

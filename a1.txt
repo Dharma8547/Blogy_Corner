@@ -1,0 +1,18 @@
+What is MongoDB?
+
+A NoSQL Database which stores Documents in Collections instead of Records and Tables as in SQL Database.
+
+
+Why NodeJS?
+
+A javascript engine originally built for browser, now can work without a browser and having sme extra APIs. And allows us to run the JavaScript outside of the browser.
+
+Why ExpressJS?
+
+A Framework for NodeJS which helps to ease the process.
+
+Relations between Collections
+
+We have relations between collections.
+Each User Can have Multiple Blogs (Array).
+

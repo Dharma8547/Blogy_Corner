@@ -1,0 +1,26 @@
+
+<!-- include header -->
+<%- include('include/_header') %>
+<!-- /include header -->
+
+  <!-- Main Site -->
+  <main id="site-main">
+    <div class="container">
+        <div class="box-nav d-flex justify-between">
+        </div>
+        <div class="form-title text-center">
+            <h2 class="text-dark">New User</h2>
+            <p><b>UserId:</b> <%= id %></p>
+            <span class="text-light">Use the below form to create a new blog</span>
+        </div>
+
+        <!-- add user form -->
+        <%- include('include/_form') %>
+       
+    </div>
+</main>
+<!-- /Main Site -->
+
+<!-- include footer -->
+<%- include('include/_footer') %>
+<!-- /include footer -->
